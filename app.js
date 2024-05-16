@@ -11,7 +11,7 @@ app.use(recordRouter)
 
 app.get("/", (req, res) => {
     console.log("Response success")
-    res.send("Response Success!")
+    res.send("Response traffic 2 success!")
 })
 
 const PORT = process.env.PORT || 8000
